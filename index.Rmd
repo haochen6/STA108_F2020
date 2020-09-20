@@ -1,0 +1,31 @@
+---
+title: "Applied Statistical Methods: Regression Analysis"
+author: "Hao Chen"
+date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
+bibliography: [packages.bib]
+biblio-style: "apalike"
+documentclass: book
+link-citations: yes
+description: "This file contains code for STA 108B, Fall 2020"
+always_allow_html: yes
+site: bookdown::bookdown_site
+fontsize: 12pt
+output: 
+  bookdown::gitbook:
+    pdf_document: default
+    html_document: default
+---
+
+# Preface {-#pre}
+
+This Gitbook is created for STA 108B (Fall 2020) in UC Davis to facilitate distance learning. 
+
+The Githbook is a work-in-progress, and materials in this Gitbook are updated constantly. 
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
